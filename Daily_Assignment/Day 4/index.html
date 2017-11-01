@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>CSS3</title>
+        <style>
+            #mainDiv{
+                display: flex;
+                padding: 50px;
+            }
+            img{
+                height: 220px;
+                width: 220px;
+                transition: height 2s,width 2s;
+                transition-timing-function: ease-out;
+            }
+            img:hover{
+                width: 500px;
+                height: 500px;
+                
+            }
+            h1{
+                transition: font-size 1s,transform 1s;
+            }
+            h1:hover{
+                font-size: 40px;
+                transform: rotate(360deg);
+            }
+        </style>
+    </head>
+    <body>
+            <div id="header" style="background-color:yellow"><center><h1 style="color:red">Taj Mahal Images</h1></center></div>
+        <div id="mainDiv">
+            <div><img src="images/taj1.jpg"></div>
+            <div><img src="images/taj2.jpg"></div>
+            <div><img src="images/taj3.jpg"></div>
+            <div><img src="images/taj4.jpg"></div>
+            <div><img src="images/taj5.jpg"></div>
+            <div><img src="images/taj6.jpg"></div>
+            <div><img src="images/taj7.jpg"></div>
+        </div>
+    </body>
+</html>

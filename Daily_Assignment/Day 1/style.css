@@ -1,0 +1,15 @@
+/* External CSS File */
+#externalCSS {
+    background-color: #8F4B58;
+    margin-left: 10px;
+    height: 20%;width: 80%;
+    border: 2px solid #0E0101;
+    padding: 7px;
+}
+#header{
+    margin-left: 10px;
+}
+#image{
+    height: 50px;
+    width: 200px;
+}

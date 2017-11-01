@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Basics of CSS</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            /* Internal CSS File */
+            #internalCSS div{
+                background-color: pink;
+                margin-left: 10px;
+                height: 20%;width: 80%;
+                border: 2px solid black;
+                padding: 5px;
+            }
+            #internalCSS h1{
+                margin-left: 10px;
+            }
+            #internalCSS img{
+                height: 50px;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--With Inline CSS  -->
+        <h1 style="margin-left:10px;margin-top:20px;">Inline CSS</h1>
+        <div style="margin-left:10px;margin-top:30px;padding:5px;border:2px solid red;background-color:yellow; height:20%;width:80%;">
+            <img src="youtube.png" style="height:50px;width:200px;clear:both"><br><p>YouTube is an American video-sharing website headquartered in San Bruno, California. The service was created by three former PayPal employees—Chad Hurley, Steve Chen, and Jawed Karim—in February 2005. Google bought the site in November 2006 for US$1.65 billion; YouTube now operates as one of Google's subsidiaries.
+             YouTube allows users to upload, view, rate, share, add to favorites, report, comment on videos, and subscribe to other users. It offers a wide variety of user-generated and corporate media videos. Available content includes video clips, TV show clips, music videos, short and documentary films, audio recordings, movie trailers, live streams, and other content such as video blogging, short original videos, and educational videos. </p>
+        </div>
+        <!--With Inline CSS  -->
+        <div id="internalCSS">
+            <h1>Internal CSS</h1>
+            <div>
+                    <img src="youtube.png" ><br><p>YouTube is an American video-sharing website headquartered in San Bruno, California. The service was created by three former PayPal employees—Chad Hurley, Steve Chen, and Jawed Karim—in February 2005. Google bought the site in November 2006 for US$1.65 billion; YouTube now operates as one of Google's subsidiaries.
+                     YouTube allows users to upload, view, rate, share, add to favorites, report, comment on videos, and subscribe to other users. It offers a wide variety of user-generated and corporate media videos. Available content includes video clips, TV show clips, music videos, short and documentary films, audio recordings, movie trailers, live streams, and other content such as video blogging, short original videos, and educational videos. </p>
+                </div>
+        </div>
+        <!--With External CSS  -->
+        <h1 id="header">External CSS</h1>
+        <div id="externalCSS">
+            <img id="image" src="youtube.png" ><br><p>YouTube is an American video-sharing website headquartered in San Bruno, California. The service was created by three former PayPal employees—Chad Hurley, Steve Chen, and Jawed Karim—in February 2005. Google bought the site in November 2006 for US$1.65 billion; YouTube now operates as one of Google's subsidiaries.
+            YouTube allows users to upload, view, rate, share, add to favorites, report, comment on videos, and subscribe to other users. It offers a wide variety of user-generated and corporate media videos. Available content includes video clips, TV show clips, music videos, short and documentary films, audio recordings, movie trailers, live streams, and other content such as video blogging, short original videos, and educational videos. </p>
+      
+        </div>
+    </body>
+</html>
